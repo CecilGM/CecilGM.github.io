@@ -226,3 +226,458 @@ footer p {
         align-items: center;
     }
 }
+/* =========================
+   CODE CARD
+========================= */
+
+.code-card {
+    width: 100%;
+    max-width: 500px;
+    background: #111827;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.code-header {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 16px;
+    background: #1f2937;
+}
+
+.code-header span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+}
+
+.code-header span:nth-child(1) {
+    background: #ff5f57;
+}
+
+.code-header span:nth-child(2) {
+    background: #ffbd2e;
+}
+
+.code-header span:nth-child(3) {
+    background: #28c840;
+}
+
+.code-content {
+    padding: 28px;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #e5e7eb;
+    overflow-x: auto;
+}
+
+.code-content p {
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.code-indent {
+    padding-left: 25px;
+}
+
+.code-purple {
+    color: #c084fc;
+}
+
+.code-green {
+    color: #86efac;
+}
+/* =========================================
+   NUEVA PALETA DE COLORES
+   ========================================= */
+
+html {
+    background-color: #FFE0B2;
+}
+
+body {
+    background-color: #FFE0B2;
+    color: #000000;
+}
+
+
+/* =========================================
+   NAVBAR
+   ========================================= */
+
+.navbar {
+    background-color: #FFB74D;
+    color: #000000;
+}
+
+.navbar a,
+.nav-menu a,
+.logo {
+    color: #000000;
+}
+
+
+/* =========================================
+   PRIMERA PARTE - HERO
+   ========================================= */
+
+.hero {
+    background-color: #FFB74D;
+    color: #000000;
+}
+
+.hero h1,
+.hero h2,
+.hero p,
+.hero span,
+.hero-content {
+    color: #000000;
+}
+
+
+/* Texto destacado del nombre */
+
+.hero h1 span {
+    color: #000000;
+}
+
+
+/* Badge */
+
+.hero-badge {
+    color: #000000;
+    border-color: #000000;
+}
+
+
+/* =========================================
+   BOTONES
+   ========================================= */
+
+.btn,
+.btn-primary,
+.btn-secondary {
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.btn-primary {
+    background-color: #FFE0B2;
+}
+
+.btn-secondary {
+    background-color: transparent;
+}
+
+
+/* =========================================
+   REDES SOCIALES
+   ========================================= */
+
+.social-links a {
+    color: #000000;
+}
+
+
+/* =========================================
+   BLOQUE DE CÓDIGO
+   ========================================= */
+
+.code-card {
+    background-color: #FFE0B2;
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: 8px 8px 0 #000000;
+}
+
+.code-header {
+    background-color: #FFB74D;
+    border-bottom: 2px solid #000000;
+}
+
+.code-content {
+    background-color: #FFE0B2;
+    color: #000000;
+    text-align: left;
+}
+
+.code-content p {
+    color: #000000;
+}
+
+.code-purple,
+.code-green {
+    color: #000000;
+}
+
+
+/* =========================================
+   TODAS LAS SECCIONES
+   ========================================= */
+
+.section,
+.section-dark,
+.contact-section {
+    background-color: #FFE0B2;
+    color: #000000;
+}
+
+
+/* Títulos */
+
+.section-title,
+.section-title h2,
+.section-title span {
+    color: #000000;
+}
+
+.section-title::after {
+    background-color: #000000;
+}
+
+
+/* =========================================
+   SOBRE MÍ
+   ========================================= */
+
+.about-text,
+.about-text p,
+.about-text strong {
+    color: #000000;
+}
+
+.info-card {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.info-card h3,
+.info-card p,
+.info-card i {
+    color: #000000;
+}
+
+
+/* =========================================
+   HABILIDADES
+   ========================================= */
+
+.skill-category {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.skill-category h3,
+.skill-category p,
+.skill-category i {
+    color: #000000;
+}
+
+.skill-icon {
+    color: #000000;
+}
+
+.skill-tags span {
+    background-color: #FFE0B2;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+
+/* =========================================
+   PROYECTOS
+   ========================================= */
+
+.project-card {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.project-card h3,
+.project-card h4,
+.project-card p,
+.project-card strong,
+.project-card i {
+    color: #000000;
+}
+
+.project-type {
+    color: #000000;
+}
+
+.project-icon {
+    color: #000000;
+}
+
+.project-tags span {
+    background-color: #FFE0B2;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.project-links a {
+    color: #000000;
+    border-color: #000000;
+}
+
+
+/* =========================================
+   FORMACIÓN
+   ========================================= */
+
+.timeline-content {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.timeline-content h3,
+.timeline-content h4,
+.timeline-content p,
+.timeline-content span {
+    color: #000000;
+}
+
+.timeline-dot {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+/* =========================================
+   LOGROS Y CERTIFICACIONES
+   ========================================= */
+
+.achievements {
+    color: #000000;
+}
+
+.achievements h3 {
+    color: #000000;
+}
+
+.achievement-card {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.achievement-card h4,
+.achievement-card p,
+.achievement-card i {
+    color: #000000;
+}
+
+
+/* =========================================
+   ACTUALMENTE APRENDIENDO
+   ========================================= */
+
+.learning-section {
+    background-color: #FFE0B2;
+    color: #000000;
+}
+
+.learning-content,
+.learning-content h2,
+.learning-content p,
+.learning-label {
+    color: #000000;
+}
+
+.learning-tags span {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.learning-tags i {
+    color: #000000;
+}
+
+
+/* =========================================
+   CONTACTO
+   ========================================= */
+
+.contact-section {
+    background-color: #FFE0B2;
+    color: #000000;
+}
+
+.contact-text,
+.contact-text h3,
+.contact-text p {
+    color: #000000;
+}
+
+.contact-item {
+    background-color: #FFB74D;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.contact-item i,
+.contact-item span,
+.contact-item strong {
+    color: #000000;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer {
+    background-color: #FFB74D;
+    color: #000000;
+    border-top: 2px solid #000000;
+}
+
+.footer p,
+.footer a,
+.footer-logo {
+    color: #000000;
+}
+
+.footer-bottom {
+    background-color: #FFE0B2;
+    color: #000000;
+}
+
+.footer-bottom p {
+    color: #000000;
+}
+
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+/* =========================================
+   ICONOS
+   ========================================= */
+
+i {
+    color: #000000;
+}
