@@ -1,0 +1,102 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* SECCIÓN HERO */
+.hero {
+    background: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background: #e94560;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #c73650;
+}
+
+/* SECCIONES GENERALES */
+section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #1a1a2e;
+}
+
+/* HABILIDADES */
+.habilidades ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.habilidades li {
+    background: #eee;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* PROYECTOS */
+.tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+    margin-bottom: 8px;
+    color: #1a1a2e;
+}
+
+.tarjeta a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+/* CONTACTO */
+footer {
+    background: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer a {
+    color: #e94560;
+    text-decoration: none;
+}
