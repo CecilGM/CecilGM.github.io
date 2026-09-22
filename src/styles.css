@@ -1231,3 +1231,56 @@ button:focus-visible {
         white-space: normal;
     }
 }
+
+.carrusel {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.carrusel-imagen {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.carrusel-boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.carrusel-boton-izq { left: 8px; }
+.carrusel-boton-der { right: 8px; }
+
+.carrusel-indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.carrusel-punto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.carrusel-punto.activo {
+  background: #333;
+}

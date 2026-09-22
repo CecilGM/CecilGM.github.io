@@ -1,3 +1,4 @@
+import Carrusel from './Carrusel';
 function Proyectos() {
   return (
               <section id="proyectos" className="section">
@@ -47,7 +48,9 @@ function Proyectos() {
                                   computadora para realizar traducción de lengua
                                   de señas en tiempo real.
                               </p>
-      
+
+                              <Carrusel imagenes={['/img/signia-1.png', '/img/signia-2.png']} />    
+
                               <div className="project-tags">
       
                                   <span>Python</span>
@@ -107,6 +110,8 @@ function Proyectos() {
                                   además de desempeñarme como
                                   <strong>Scrum Master</strong>.
                               </p>
+
+                              <Carrusel imagenes={['/img/Flui1.jpeg', '/img/Flui2.jpeg', '/img/Flui3.jpeg']} />
       
                               <div className="project-tags">
       
@@ -174,6 +179,8 @@ function Proyectos() {
                                   arquitectura <strong>MVC</strong>, API REST
                                   y metodología ágil basada en sprints.
                               </p>
+
+                              <Carrusel imagenes={['/img/Fix.jpeg']} />
       
                               <div className="project-tags">
       
@@ -244,6 +251,8 @@ function Proyectos() {
                                   ciudadanas, usuarios, rutas, geolocalización
                                   y reportes.
                               </p>
+
+                              <Carrusel imagenes={['/img/Rec1.jpeg', '/img/Rec2.jpeg']} />
       
                               <div className="project-tags">
       
@@ -294,6 +303,8 @@ function Proyectos() {
                                   Programación Orientada a Objetos y arquitectura
                                   por capas.
                               </p>
+
+                              <Carrusel imagenes={['/img/GesAfi.png', '/img/EmOrden.png', '/img/EspMed.png', '/img/Prest.png', '/img/Inf.png']} />
       
                               <div className="project-tags">
       
